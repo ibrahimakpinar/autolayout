@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let rootViewController = LabViewController(labs:rootLabs, navBarTitle: "Examples")
         let navigatorController = UINavigationController(rootViewController: rootViewController)
         
-        window?.rootViewController = ReadableContentGuide()
+        window?.rootViewController = navigatorController
         return false
     }
 }
