@@ -42,7 +42,6 @@ func makeSwitch(isOn: Bool) -> UISwitch {
     let theSwitch = UISwitch()
     theSwitch.translatesAutoresizingMaskIntoConstraints = false
     theSwitch.isOn = isOn
-
     return theSwitch
 }
 

@@ -25,10 +25,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             Lab(name: "Readable Content Guide", viewController: ReadableContentGuide())
         ]
         
+        let intrinsicContentSizeLabs = [
+            Lab(name: "Override Label", viewController: OverrideLabel()),
+            Lab(name: "CHCR - Form", viewController: CHCRForm()),
+            Lab(name: "CHCR - Image", viewController: CHCRImage())
+        ]
+        
         let anchorViewController = LabViewController(labs: anchorLabs, navBarTitle: "Anchors")
+        let intrinsicViewController = LabViewController(labs: intrinsicContentSizeLabs, navBarTitle: "Intrinsic Content Size")
         
         let rootLabs = [
-            Lab(name: "Anchors", viewController: anchorViewController)
+            Lab(name: "Anchors", viewController: anchorViewController),
+            Lab(name: "Intrinsic Content Size", viewController: intrinsicViewController)
         ]
         
         let rootViewController = LabViewController(labs:rootLabs, navBarTitle: "Examples")

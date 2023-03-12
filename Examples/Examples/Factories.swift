@@ -127,6 +127,15 @@ public func makeSpacerView(height: CGFloat? = nil) -> UIView {
     return spacerView
 }
 
+public func makeImageView(named: String) -> UIImageView {
+    let view = UIImageView()
+    view.translatesAutoresizingMaskIntoConstraints = false
+    view.contentMode = .scaleAspectFit
+    view.image = UIImage(named: named)
+    
+    return view
+}
+
 public extension NSLayoutConstraint {
     @objc func setActiveBreakable(priority: UILayoutPriority = UILayoutPriority(900)) {
         self.priority = priority
