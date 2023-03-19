@@ -31,12 +31,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             Lab(name: "CHCR - Image", viewController: CHCRImage())
         ]
         
+        let distributionLabs = [
+            Lab(name: "Fill", viewController: Fill()),
+            Lab(name: "Fill Equally", viewController: FillEqually()),
+            Lab(name: "Equal Spacing", viewController: EqualSpacing()),
+            Lab(name: "Equal Centering", viewController: EqualCentering()),
+            Lab(name: "CHCR Fill", viewController: CHCRFill()),
+        ]
+        
+        let distributionViewController = LabViewController(labs: distributionLabs, navBarTitle: "Distributions")
+        
+        let stackViewLabs = [
+            Lab(name: "Distributions", viewController: distributionViewController),
+            Lab(name: "Custom", viewController: CustomView()),
+            Lab(name: "Scrollable", viewController: ScrollableView()),
+            Lab(name: "Padding", viewController: PaddingView()),
+            Lab(name: "Spacer", viewController: StackSpacerView())
+
+        ]
+        
         let anchorViewController = LabViewController(labs: anchorLabs, navBarTitle: "Anchors")
         let intrinsicViewController = LabViewController(labs: intrinsicContentSizeLabs, navBarTitle: "Intrinsic Content Size")
+        let stackViewController = LabViewController(labs: stackViewLabs, navBarTitle: "Stack Views")
         
         let rootLabs = [
             Lab(name: "Anchors", viewController: anchorViewController),
-            Lab(name: "Intrinsic Content Size", viewController: intrinsicViewController)
+            Lab(name: "Intrinsic Content Size", viewController: intrinsicViewController),
+            Lab(name: "Stack Views", viewController: stackViewController),
         ]
         
         let rootViewController = LabViewController(labs:rootLabs, navBarTitle: "Examples")

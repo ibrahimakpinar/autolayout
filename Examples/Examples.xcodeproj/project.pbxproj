@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D244C0029C022C30079BDD9 /* Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D244BFF29C022C30079BDD9 /* Fill.swift */; };
+		0D8C10E929C6C95A001EED19 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C10E829C6C95A001EED19 /* CustomView.swift */; };
+		0D8C10EB29C6CB9B001EED19 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C10EA29C6CB9B001EED19 /* ScrollableView.swift */; };
+		0D8C10ED29C6D3CF001EED19 /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C10EC29C6D3CF001EED19 /* PaddingView.swift */; };
+		0D8C10EF29C6D445001EED19 /* StackSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C10EE29C6D445001EED19 /* StackSpacerView.swift */; };
 		0DE51D0F29BC695900AE7325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE51D0E29BC695900AE7325 /* AppDelegate.swift */; };
 		0DE51D1829BC695A00AE7325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DE51D1729BC695A00AE7325 /* Assets.xcassets */; };
 		0DE51D1B29BC695A00AE7325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DE51D1929BC695A00AE7325 /* LaunchScreen.storyboard */; };
@@ -20,9 +25,19 @@
 		0DE51D5729BD94FD00AE7325 /* OverrideLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE51D5629BD94FD00AE7325 /* OverrideLabel.swift */; };
 		0DE51D5929BD961400AE7325 /* CHCRForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE51D5829BD961400AE7325 /* CHCRForm.swift */; };
 		0DE51D5B29BD9CC800AE7325 /* CHCRImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE51D5A29BD9CC800AE7325 /* CHCRImage.swift */; };
+		0DF6762429C024310054D2B9 /* FillEqually.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6762329C024310054D2B9 /* FillEqually.swift */; };
+		0DF6762629C024850054D2B9 /* EqualSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6762529C024850054D2B9 /* EqualSpacing.swift */; };
+		0DF6762829C0250B0054D2B9 /* EqualCentering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6762729C0250B0054D2B9 /* EqualCentering.swift */; };
+		0DF6762A29C025980054D2B9 /* CHCRFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6762929C025980054D2B9 /* CHCRFill.swift */; };
+		0DF6762C29C027D10054D2B9 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6762B29C027D10054D2B9 /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D244BFF29C022C30079BDD9 /* Fill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fill.swift; sourceTree = "<group>"; };
+		0D8C10E829C6C95A001EED19 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		0D8C10EA29C6CB9B001EED19 /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
+		0D8C10EC29C6D3CF001EED19 /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
+		0D8C10EE29C6D445001EED19 /* StackSpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackSpacerView.swift; sourceTree = "<group>"; };
 		0DE51D0B29BC695900AE7325 /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE51D0E29BC695900AE7325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DE51D1729BC695A00AE7325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +53,11 @@
 		0DE51D5629BD94FD00AE7325 /* OverrideLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideLabel.swift; sourceTree = "<group>"; };
 		0DE51D5829BD961400AE7325 /* CHCRForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCRForm.swift; sourceTree = "<group>"; };
 		0DE51D5A29BD9CC800AE7325 /* CHCRImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCRImage.swift; sourceTree = "<group>"; };
+		0DF6762329C024310054D2B9 /* FillEqually.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillEqually.swift; sourceTree = "<group>"; };
+		0DF6762529C024850054D2B9 /* EqualSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualSpacing.swift; sourceTree = "<group>"; };
+		0DF6762729C0250B0054D2B9 /* EqualCentering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualCentering.swift; sourceTree = "<group>"; };
+		0DF6762929C025980054D2B9 /* CHCRFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCRFill.swift; sourceTree = "<group>"; };
+		0DF6762B29C027D10054D2B9 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D244BFD29BF21410079BDD9 /* StackViews */ = {
+			isa = PBXGroup;
+			children = (
+				0D244BFE29C021D10079BDD9 /* Distributions */,
+				0DF6762B29C027D10054D2B9 /* RowView.swift */,
+				0D8C10E829C6C95A001EED19 /* CustomView.swift */,
+				0D8C10EA29C6CB9B001EED19 /* ScrollableView.swift */,
+				0D8C10EC29C6D3CF001EED19 /* PaddingView.swift */,
+				0D8C10EE29C6D445001EED19 /* StackSpacerView.swift */,
+			);
+			path = StackViews;
+			sourceTree = "<group>";
+		};
+		0D244BFE29C021D10079BDD9 /* Distributions */ = {
+			isa = PBXGroup;
+			children = (
+				0D244BFF29C022C30079BDD9 /* Fill.swift */,
+				0DF6762329C024310054D2B9 /* FillEqually.swift */,
+				0DF6762529C024850054D2B9 /* EqualSpacing.swift */,
+				0DF6762729C0250B0054D2B9 /* EqualCentering.swift */,
+				0DF6762929C025980054D2B9 /* CHCRFill.swift */,
+			);
+			name = Distributions;
+			sourceTree = "<group>";
+		};
 		0DE51D0229BC695900AE7325 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +115,7 @@
 		0DE51D0D29BC695900AE7325 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				0D244BFD29BF21410079BDD9 /* StackViews */,
 				0DE51D5529BD94C800AE7325 /* IntrinsicContentSize */,
 				0DE51D2529BC6CDC00AE7325 /* Anchors */,
 				0DE51D2229BC697600AE7325 /* Files */,
@@ -182,16 +228,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF6762A29C025980054D2B9 /* CHCRFill.swift in Sources */,
 				0DE51D2729BC6CEC00AE7325 /* BasicAnchors.swift in Sources */,
 				0DE51D2D29BC733600AE7325 /* LayoutMargins.swift in Sources */,
+				0D8C10E929C6C95A001EED19 /* CustomView.swift in Sources */,
+				0D8C10EB29C6CB9B001EED19 /* ScrollableView.swift in Sources */,
 				0DE51D0F29BC695900AE7325 /* AppDelegate.swift in Sources */,
 				0DE51D2F29BC775000AE7325 /* SpacerViews.swift in Sources */,
+				0D244C0029C022C30079BDD9 /* Fill.swift in Sources */,
+				0DF6762429C024310054D2B9 /* FillEqually.swift in Sources */,
 				0DE51D2929BC6D1D00AE7325 /* Factories.swift in Sources */,
 				0DE51D2B29BC6E5000AE7325 /* SafeAreaGuide.swift in Sources */,
+				0D8C10ED29C6D3CF001EED19 /* PaddingView.swift in Sources */,
+				0DF6762C29C027D10054D2B9 /* RowView.swift in Sources */,
+				0DF6762829C0250B0054D2B9 /* EqualCentering.swift in Sources */,
 				0DE51D5B29BD9CC800AE7325 /* CHCRImage.swift in Sources */,
 				0DE51D3129BC7DC300AE7325 /* ReadableContentGuide.swift in Sources */,
 				0DE51D5729BD94FD00AE7325 /* OverrideLabel.swift in Sources */,
 				0DE51D2429BC69AD00AE7325 /* LabViewController.swift in Sources */,
+				0DF6762629C024850054D2B9 /* EqualSpacing.swift in Sources */,
+				0D8C10EF29C6D445001EED19 /* StackSpacerView.swift in Sources */,
 				0DE51D5929BD961400AE7325 /* CHCRForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
