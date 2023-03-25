@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0D244C0029C022C30079BDD9 /* Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D244BFF29C022C30079BDD9 /* Fill.swift */; };
+		0D45011729CD5FF9008DA060 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45011629CD5FF9008DA060 /* Constants.swift */; };
+		0D45011929CD6246008DA060 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45011829CD6246008DA060 /* Constraints.swift */; };
+		0D45011B29CD65BC008DA060 /* Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45011A29CD65BC008DA060 /* Visibility.swift */; };
+		0D45014129CD6AC5008DA060 /* OrientationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45014029CD6AC5008DA060 /* OrientationView.swift */; };
+		0D45014329CD800C008DA060 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45014229CD800C008DA060 /* RedView.swift */; };
+		0D45014529CD803A008DA060 /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45014429CD803A008DA060 /* BlueView.swift */; };
+		0D45014C29CEBA0A008DA060 /* AdjustConstraintsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45014B29CEBA0A008DA060 /* AdjustConstraintsView.swift */; };
+		0D45014E29CEBA49008DA060 /* AdjustConstraintsBlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45014D29CEBA49008DA060 /* AdjustConstraintsBlueView.swift */; };
+		0D45015129CEBD7E008DA060 /* AdjustSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45015029CEBD7E008DA060 /* AdjustSpacerView.swift */; };
+		0D45015329CEBDC3008DA060 /* AdjustSpacersBlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D45015229CEBDC3008DA060 /* AdjustSpacersBlueView.swift */; };
 		0D8C10E929C6C95A001EED19 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C10E829C6C95A001EED19 /* CustomView.swift */; };
 		0D8C10EB29C6CB9B001EED19 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C10EA29C6CB9B001EED19 /* ScrollableView.swift */; };
 		0D8C10ED29C6D3CF001EED19 /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8C10EC29C6D3CF001EED19 /* PaddingView.swift */; };
@@ -34,6 +44,16 @@
 
 /* Begin PBXFileReference section */
 		0D244BFF29C022C30079BDD9 /* Fill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fill.swift; sourceTree = "<group>"; };
+		0D45011629CD5FF9008DA060 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0D45011829CD6246008DA060 /* Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		0D45011A29CD65BC008DA060 /* Visibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visibility.swift; sourceTree = "<group>"; };
+		0D45014029CD6AC5008DA060 /* OrientationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationView.swift; sourceTree = "<group>"; };
+		0D45014229CD800C008DA060 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
+		0D45014429CD803A008DA060 /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
+		0D45014B29CEBA0A008DA060 /* AdjustConstraintsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustConstraintsView.swift; sourceTree = "<group>"; };
+		0D45014D29CEBA49008DA060 /* AdjustConstraintsBlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustConstraintsBlueView.swift; sourceTree = "<group>"; };
+		0D45015029CEBD7E008DA060 /* AdjustSpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustSpacerView.swift; sourceTree = "<group>"; };
+		0D45015229CEBDC3008DA060 /* AdjustSpacersBlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustSpacersBlueView.swift; sourceTree = "<group>"; };
 		0D8C10E829C6C95A001EED19 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		0D8C10EA29C6CB9B001EED19 /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
 		0D8C10EC29C6D3CF001EED19 /* PaddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingView.swift; sourceTree = "<group>"; };
@@ -96,6 +116,46 @@
 			name = Distributions;
 			sourceTree = "<group>";
 		};
+		0D45011529CD5F44008DA060 /* AdaptiveLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				0D45011629CD5FF9008DA060 /* Constants.swift */,
+				0D45011829CD6246008DA060 /* Constraints.swift */,
+				0D45011A29CD65BC008DA060 /* Visibility.swift */,
+			);
+			name = AdaptiveLayouts;
+			sourceTree = "<group>";
+		};
+		0D45013F29CD6A9A008DA060 /* Orientations */ = {
+			isa = PBXGroup;
+			children = (
+				0D45014F29CEBD5B008DA060 /* AdjustSpacers */,
+				0D45014A29CEB9DF008DA060 /* AdjustConstraints */,
+				0D45014029CD6AC5008DA060 /* OrientationView.swift */,
+				0D45014229CD800C008DA060 /* RedView.swift */,
+				0D45014429CD803A008DA060 /* BlueView.swift */,
+			);
+			path = Orientations;
+			sourceTree = "<group>";
+		};
+		0D45014A29CEB9DF008DA060 /* AdjustConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				0D45014B29CEBA0A008DA060 /* AdjustConstraintsView.swift */,
+				0D45014D29CEBA49008DA060 /* AdjustConstraintsBlueView.swift */,
+			);
+			path = AdjustConstraints;
+			sourceTree = "<group>";
+		};
+		0D45014F29CEBD5B008DA060 /* AdjustSpacers */ = {
+			isa = PBXGroup;
+			children = (
+				0D45015029CEBD7E008DA060 /* AdjustSpacerView.swift */,
+				0D45015229CEBDC3008DA060 /* AdjustSpacersBlueView.swift */,
+			);
+			name = AdjustSpacers;
+			sourceTree = "<group>";
+		};
 		0DE51D0229BC695900AE7325 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +175,8 @@
 		0DE51D0D29BC695900AE7325 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				0D45013F29CD6A9A008DA060 /* Orientations */,
+				0D45011529CD5F44008DA060 /* AdaptiveLayouts */,
 				0D244BFD29BF21410079BDD9 /* StackViews */,
 				0DE51D5529BD94C800AE7325 /* IntrinsicContentSize */,
 				0DE51D2529BC6CDC00AE7325 /* Anchors */,
@@ -229,7 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DF6762A29C025980054D2B9 /* CHCRFill.swift in Sources */,
+				0D45011729CD5FF9008DA060 /* Constants.swift in Sources */,
 				0DE51D2729BC6CEC00AE7325 /* BasicAnchors.swift in Sources */,
+				0D45014129CD6AC5008DA060 /* OrientationView.swift in Sources */,
 				0DE51D2D29BC733600AE7325 /* LayoutMargins.swift in Sources */,
 				0D8C10E929C6C95A001EED19 /* CustomView.swift in Sources */,
 				0D8C10EB29C6CB9B001EED19 /* ScrollableView.swift in Sources */,
@@ -238,13 +302,21 @@
 				0D244C0029C022C30079BDD9 /* Fill.swift in Sources */,
 				0DF6762429C024310054D2B9 /* FillEqually.swift in Sources */,
 				0DE51D2929BC6D1D00AE7325 /* Factories.swift in Sources */,
+				0D45014329CD800C008DA060 /* RedView.swift in Sources */,
 				0DE51D2B29BC6E5000AE7325 /* SafeAreaGuide.swift in Sources */,
+				0D45015329CEBDC3008DA060 /* AdjustSpacersBlueView.swift in Sources */,
 				0D8C10ED29C6D3CF001EED19 /* PaddingView.swift in Sources */,
 				0DF6762C29C027D10054D2B9 /* RowView.swift in Sources */,
+				0D45014C29CEBA0A008DA060 /* AdjustConstraintsView.swift in Sources */,
+				0D45014529CD803A008DA060 /* BlueView.swift in Sources */,
 				0DF6762829C0250B0054D2B9 /* EqualCentering.swift in Sources */,
+				0D45011929CD6246008DA060 /* Constraints.swift in Sources */,
 				0DE51D5B29BD9CC800AE7325 /* CHCRImage.swift in Sources */,
+				0D45015129CEBD7E008DA060 /* AdjustSpacerView.swift in Sources */,
+				0D45014E29CEBA49008DA060 /* AdjustConstraintsBlueView.swift in Sources */,
 				0DE51D3129BC7DC300AE7325 /* ReadableContentGuide.swift in Sources */,
 				0DE51D5729BD94FD00AE7325 /* OverrideLabel.swift in Sources */,
+				0D45011B29CD65BC008DA060 /* Visibility.swift in Sources */,
 				0DE51D2429BC69AD00AE7325 /* LabViewController.swift in Sources */,
 				0DF6762629C024850054D2B9 /* EqualSpacing.swift in Sources */,
 				0D8C10EF29C6D445001EED19 /* StackSpacerView.swift in Sources */,

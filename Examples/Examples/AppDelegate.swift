@@ -50,14 +50,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         ]
         
+        let adaptiveLayoutLabs = [
+            Lab(name: "Constants", viewController: Constants()),
+            Lab(name: "Constraints", viewController: Constraints()),
+            Lab(name: "Visibility", viewController: Visiblity())
+        ]
+        
+        let orientationLabs = [
+            Lab(name: "Detect Orientation", viewController: OrientationView()),
+            Lab(name: "Adjust with constraints", viewController: AdjustConstraintsView()),
+            Lab(name: "Adjust with spacers", viewController: AdjustSpacerView()),
+        ]
+        
         let anchorViewController = LabViewController(labs: anchorLabs, navBarTitle: "Anchors")
         let intrinsicViewController = LabViewController(labs: intrinsicContentSizeLabs, navBarTitle: "Intrinsic Content Size")
         let stackViewController = LabViewController(labs: stackViewLabs, navBarTitle: "Stack Views")
-        
+        let adaptiveLayoutViewController = LabViewController(labs: adaptiveLayoutLabs, navBarTitle: "Adaptive Layouts")
+        let orientationViewController = LabViewController(labs: orientationLabs, navBarTitle: "Orientation")
         let rootLabs = [
             Lab(name: "Anchors", viewController: anchorViewController),
             Lab(name: "Intrinsic Content Size", viewController: intrinsicViewController),
             Lab(name: "Stack Views", viewController: stackViewController),
+            Lab(name: "Adaptive Layouts", viewController: adaptiveLayoutViewController),
+            Lab(name: "Orientation", viewController: orientationViewController)
         ]
         
         let rootViewController = LabViewController(labs:rootLabs, navBarTitle: "Examples")
